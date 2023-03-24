@@ -1,0 +1,63 @@
+.gragle
+.idea
+.gradle/
+.idea/
+.fleet/
+.DS_Store
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+*.log
+*.tar
+*.tar.gz
+*.gz
+
+common-proto
+lib-commons
+
+# core
+lib-auth-service
+lib-project-constructor
+lib-config-constructor
+lib-module-library
+ms-auth-service
+ms-module-library
+ms-project-constructor
+ms-config-constructor
+
+# execution commons
+lib-data-registrator
+lib-data-converter
+lib-workflow-executor
+lib-node-runner
+lib-data-accessor
+lib-storage-systems
+lib-dwh-job-runner
+lib-kubernetes-job-runner
+ms-workflow-executor
+ms-node-runner
+ms-data-registrator
+ms-data-converter
+
+# execution specific
+ms-docker-job-runner
+ms-kubernetes-job-runner
+ms-groovy-job-runner
+ms-dwh-job-runner
+ms-data-accessor
+
+# schedule
+lib-workflow-scheduler
+ms-workflow-scheduler
+
+# module constructor
+ms-module-constructor
+
+# gatawey
+ms-gateway
+
+# realtime
+ms-queue-manager
+lib-queue-manager
